@@ -26,7 +26,7 @@
   "scripts": {
     "serve": "gatsby build && NODE_ENV=production gatsby serve",
     "build": "gatsby build",
-    "dev": "gatsby develop",
+    "dev": "gatsby develop -p 4000",
     "lint": "eslint . --ext .js --cache",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -51,10 +51,13 @@
     "gatsby-plugin-offline": "3.2.6",
     "gatsby-plugin-react-helmet": "3.3.2",
     "gatsby-plugin-sharp": "2.6.8",
+    "gatsby-remark-prismjs": "^3.5.2",
     "gatsby-source-filesystem": "2.3.7",
     "gatsby-source-ghost": "4.0.4",
+    "gatsby-transformer-remark": "^2.8.13",
     "gatsby-transformer-sharp": "2.5.3",
     "lodash": "4.17.15",
+    "prismjs": "^1.20.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-helmet": "5.2.1"
